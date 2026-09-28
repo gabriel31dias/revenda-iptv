@@ -1,0 +1,17 @@
+{
+  "name": "painel-login",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env login.js",
+    "worker": "node worker.js"
+  },
+  "dependencies": {
+    "baileys": "^7.0.0-rc14",
+    "pino": "^10.3.1",
+    "puppeteer": "^25.12.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "qrcode": "^1.5.4",
+    "socket.io-client": "^4.8.4"
+  }
+}

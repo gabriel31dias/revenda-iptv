@@ -1,0 +1,11 @@
+{
+  "name": "painel-iptv-backend",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.4"
+  }
+}

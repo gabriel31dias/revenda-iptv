@@ -1,0 +1,16 @@
+# dependências e build
+node_modules/
+frontend/dist/
+
+# segredos (tokens Mercado Pago, WORKER_KEY, senha do painelblackbr)
+.env
+.env.*
+!.env.example
+
+# dados e sessões locais
+backend/data.db*
+*.log
+scraper/session/
+scraper/whats-session/
+scraper/whats-qr.*
+scraper/*.png
